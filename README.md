@@ -1,0 +1,66 @@
+# EBR WSI Analysis
+
+의과대학 의예과 "Evolution of Biomedical Research" 실습 프로젝트
+
+전체슬라이드이미지(Whole Slide Image) 분석을 위한 파이프라인 구축 및 AI 모델 활용
+
+## 주차별 학습 내용
+
+### Week 1: OpenSlide 기초
+- 로컬 환경 구축 (UV + OpenSlide)
+- 그리드 패치 추출 파이프라인
+- 배경 자동 제거 (Tissue Masking)
+- **결과**: 88개 패치 중 39개 조직 패치 추출
+
+[코드](week1-openslide/) | [상세 레포트](reports/week1_report.md)
+
+### Week 2: TIAToolbox 고급 기능
+- 해상도 및 단위 개념 (power, mpp, level)
+- Morphological Tissue Masking
+- WSI 썸네일 및 다중 해상도 비교
+- **결과**: 조직 비율 43.06% 자동 계산
+
+[코드](week2-tiatoolbox-basics/) | [상세 레포트](reports/week2_report.md)
+
+### Week 3: Docker 환경 구축
+- 재현 가능한 컨테이너 환경
+- Volume Mount를 통한 데이터 연결
+- 썸네일 자동 생성 스크립트
+- **결과**: 5.6GB Docker 이미지 구축 성공
+
+[코드](week3-docker/) | [Dockerfile](docker/3.11/Ubuntu/Dockerfile) | [상세 레포트](reports/week3_report.md)
+
+### Week 4: AI 모델 추론
+- 사전훈련 모델 (resnet18-kather100k)
+- 3개 WSI 배치 처리 (총 2061 패치)
+- 예측 결과 시각화 및 분석
+- **결과**: 조직 타입별 분포 자동 분류
+
+[코드](week4-model-inference/) | [상세 레포트](reports/week4_report.md)
+
+## 환경 요구사항
+
+- Python 3.11+
+- Docker Desktop
+- macOS / Linux (Windows WSL2)
+- 주요 라이브러리: OpenSlide, TIAToolbox, PyTorch
+
+## 빠른 시작
+
+### Week 1-2 (로컬 환경)
+```bash
+cd week1-openslide
+uv venv --python 3.11
+source .venv/bin/activate
+uv add openslide-python pillow numpy opencv-python
+
+export DYLD_LIBRARY_PATH=/opt/homebrew/opt/openslide/lib:$DYLD_LIBRARY_PATH
+python src/main.py
+```
+
+### Week 3-4 (Docker 환경)
+```bash
+cd week4-model-inference
+docker pull ghcr.io/tissueimageanalytics/tiatoolbox:1.6.0-py3.11-ubuntu
+./process_all_wsi.sh
+```
