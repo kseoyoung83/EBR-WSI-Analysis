@@ -38,6 +38,15 @@
 
 [코드](week4-model-inference/) | [상세 레포트](reports/week4_report.md)
 
+### Week 5: Stain Normalization
+- 3가지 정규화 알고리즘 비교 (Macenko, Vahadane, Reinhard)
+- WSI 간 색상 편차 보정
+- Before/After 시각화 (2×3 grid)
+- **결과**: 일관된 H&E 염색 색상으로 표준화
+
+[코드](week5-stain-normalization/) | [상세 레포트](reports/week5_report.md)
+
+
 ## 환경 요구사항
 
 - Python 3.11+
@@ -58,9 +67,35 @@ export DYLD_LIBRARY_PATH=/opt/homebrew/opt/openslide/lib:$DYLD_LIBRARY_PATH
 python src/main.py
 ```
 
-### Week 3-4 (Docker 환경)
+### Week 3-5 (Docker 환경)
 ```bash
 cd week4-model-inference
 docker pull ghcr.io/tissueimageanalytics/tiatoolbox:1.6.0-py3.11-ubuntu
 ./process_all_wsi.sh
 ```
+<artifact identifier="readme-bottom-section" type="text/markdown" title="README.md 하단 섹션 (주요 결과~끝)">
+## 주요 결과
+주차처리 WSI생성 패치/이미지주요 성과Week 11개39개 조직 패치배경 제거 파이프라인Week 21개9개 시각화다중 해상도 분석Week 31개5개 썸네일Docker 환경 구축Week 43개2061 패치 분석AI 모델 배치 처리Week 53개8개 정규화 이미지색상 표준화 (3가지 방법)
+프로젝트 구조
+EBR-WSI-Analysis/
+├── week1-openslide/
+├── week2-tiatoolbox-basics/
+├── week3-docker/
+├── week4-model-inference/
+├── week5-stain-normalization/
+├── docker/
+└── reports/
+참고 자료
+
+TIAToolbox: https://github.com/TissueImageAnalytics/tiatoolbox
+OpenSlide: https://openslide.org
+Sample Data: https://tiatoolbox.dcs.warwick.ac.uk/sample_wsis/
+
+데이터 파일
+WSI 파일(.svs)은 용량이 커서 저장소에 포함되지 않습니다:
+bashcurl -L -o data/CMU-1-Small-Region.svs \
+  "https://tiatoolbox.dcs.warwick.ac.uk/sample_wsis/CMU-1-Small-Region.svs"
+저자
+김서영 (2024191115) - 의과대학 의예과
+
+</artifact>
