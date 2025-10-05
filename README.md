@@ -74,9 +74,21 @@ docker pull ghcr.io/tissueimageanalytics/tiatoolbox:1.6.0-py3.11-ubuntu
 ./process_all_wsi.sh
 ```
 <artifact identifier="readme-bottom-section" type="text/markdown" title="README.md 하단 섹션 (주요 결과~끝)">
+
+<artifact identifier="readme-bottom-section" type="text/markdown" title="README.md 하단 섹션 (주요 결과~끝)">
 ## 주요 결과
-주차처리 WSI생성 패치/이미지주요 성과Week 11개39개 조직 패치배경 제거 파이프라인Week 21개9개 시각화다중 해상도 분석Week 31개5개 썸네일Docker 환경 구축Week 43개2061 패치 분석AI 모델 배치 처리Week 53개8개 정규화 이미지색상 표준화 (3가지 방법)
-프로젝트 구조
+
+| 주차 | 처리 WSI | 생성 패치/이미지 | 주요 성과 |
+|------|---------|-----------------|----------|
+| Week 1 | 1개 | 39개 조직 패치 | 배경 제거 파이프라인 |
+| Week 2 | 1개 | 9개 시각화 | 다중 해상도 분석 |
+| Week 3 | 1개 | 5개 썸네일 | Docker 환경 구축 |
+| Week 4 | 3개 | 2061 패치 분석 | AI 모델 배치 처리 |
+| Week 5 | 3개 | 8개 정규화 이미지 | 색상 표준화 (3가지 방법) |
+
+## 프로젝트 구조
+
+```
 EBR-WSI-Analysis/
 ├── week1-openslide/
 ├── week2-tiatoolbox-basics/
@@ -85,17 +97,28 @@ EBR-WSI-Analysis/
 ├── week5-stain-normalization/
 ├── docker/
 └── reports/
-참고 자료
+```
 
-TIAToolbox: https://github.com/TissueImageAnalytics/tiatoolbox
-OpenSlide: https://openslide.org
-Sample Data: https://tiatoolbox.dcs.warwick.ac.uk/sample_wsis/
+## 참고 자료
 
-데이터 파일
+- TIAToolbox: https://github.com/TissueImageAnalytics/tiatoolbox
+- OpenSlide: https://openslide.org
+- Sample Data: https://tiatoolbox.dcs.warwick.ac.uk/sample_wsis/
+
+## 데이터 파일
+
 WSI 파일(.svs)은 용량이 커서 저장소에 포함되지 않습니다:
-bashcurl -L -o data/CMU-1-Small-Region.svs \
+
+```bash
+curl -L -o data/CMU-1-Small-Region.svs \
   "https://tiatoolbox.dcs.warwick.ac.uk/sample_wsis/CMU-1-Small-Region.svs"
-저자
+```
+
+## 저자
+
 김서영 (2024191115) - 의과대학 의예과
 
+## 라이선스
+
+MIT License
 </artifact>
