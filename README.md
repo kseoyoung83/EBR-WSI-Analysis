@@ -46,6 +46,14 @@
 
 [코드](week5-stain-normalization/) | [상세 레포트](reports/week5_report.md)
 
+### Week 6: Feature Extraction & Spatial Analysis
+- WSI 패치에서 feature 추출 (9차원 확률 벡터)
+- 공간적 조직 분포 분석 및 시각화
+- 예측 불확실성(Entropy) 정량화
+- 종양 영역 자동 탐지
+- **결과**: 3개 WSI, 2061개 패치 분석 완료
+
+[코드](week6-slide-graph/) | [상세 레포트](reports/week6_report.md)
 
 ## 환경 요구사항
 
@@ -85,6 +93,7 @@ docker pull ghcr.io/tissueimageanalytics/tiatoolbox:1.6.0-py3.11-ubuntu
 | Week 3 | 1개 | 5개 썸네일 | Docker 환경 구축 |
 | Week 4 | 3개 | 2061 패치 분석 | AI 모델 배치 처리 |
 | Week 5 | 3개 | 8개 정규화 이미지 | 색상 표준화 (3가지 방법) |
+| Week 6 | 3개 | 2061 패치, 15개 시각화 | Feature extraction & 공간 분석 |
 
 ## 프로젝트 구조
 
