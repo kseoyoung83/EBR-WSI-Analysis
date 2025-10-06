@@ -75,7 +75,7 @@ export DYLD_LIBRARY_PATH=/opt/homebrew/opt/openslide/lib:$DYLD_LIBRARY_PATH
 python src/main.py
 ```
 
-### Week 3-5 (Docker 환경)
+### Week 3-6 (Docker 환경)
 ```bash
 cd week4-model-inference
 docker pull ghcr.io/tissueimageanalytics/tiatoolbox:1.6.0-py3.11-ubuntu
@@ -104,6 +104,7 @@ EBR-WSI-Analysis/
 ├── week3-docker/
 ├── week4-model-inference/
 ├── week5-stain-normalization/
+├── week6-slide-graph/
 ├── docker/
 └── reports/
 ```
