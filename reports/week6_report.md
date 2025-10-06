@@ -298,6 +298,23 @@ ax.invert_yaxis()
 - stride=224로 겹침 없이 추출된 것 확인
 
 **그래프 의미**:
+
+**CMU-1-Small-Region (82 patches)**
+
+![패치 공간 분포 - CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/patch_distribution.png)
+*그림: CMU-1-Small-Region - 패치 공간 분포*
+
+**TEST_sample1 (327 patches)**
+
+![패치 공간 분포 - TEST_sample1](../week6-slide-graph/results/TEST_sample1/patch_distribution.png)
+*그림: TEST_sample1 - 패치 공간 분포*
+
+**TEST_sample2 (1652 patches)**
+
+![패치 공간 분포 - TEST_sample2](../week6-slide-graph/results/TEST_sample2/patch_distribution.png)
+*그림: TEST_sample2 - 패치 공간 분포*
+
+
 - X: 0 ~ 2100 픽셀
 - Y: 0 ~ 3000 픽셀
 - 82개 점 = 82개 패치의 좌상단 좌표
