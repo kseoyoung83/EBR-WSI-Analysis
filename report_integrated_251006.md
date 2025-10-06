@@ -174,7 +174,7 @@ def _calculate_tissue_ratio(self, patch, brightness_threshold=200):
 - **조직 패치**: 39개 (44.3%)
 - **배경 패치**: 49개 (55.7%) 자동 제거
 
-![Week 1 조직 패치 예시](../week1-openslide/results/patches/tissue_only/patch_x896_y896.png)
+![Week 1 조직 패치 예시](week1-openslide/results/patches/tissue_only/patch_x896_y896.png)
 
 **알고리즘 선택 이유**:
 - 단순하지만 효과적 (밝기 < 200 = 조직)
@@ -270,7 +270,7 @@ uv add tiatoolbox
 
 **Tissue Masking 성공**
 
-![Tissue Mask Overview](../week2-tiatoolbox-basics/results/week2/tissue_mask_overview.png)
+![Tissue Mask Overview](week2-tiatoolbox-basics/results/week2/tissue_mask_overview.png)
 
 **핵심 성과**:
 - **조직 비율**: 43.06% 자동 계산
@@ -286,7 +286,7 @@ uv add tiatoolbox
 | 정확도 | 중간 | 높음 |
 | 유연성 | 낮음 | 높음 (모든 WSI 적용 가능) |
 
-![해상도 비교](../week2-tiatoolbox-basics/results/week2/thumbnail_resolution_comparison.png)
+![해상도 비교](week2-tiatoolbox-basics/results/week2/thumbnail_resolution_comparison.png)
 
 **해상도 학습**:
 - `units="power"`: 0.5x (가장 상세) ~ 5.0x (전체 개요)
@@ -377,7 +377,7 @@ docker pull ghcr.io/tissueimageanalytics/tiatoolbox:1.6.0-py3.11-ubuntu
 
 **Docker 환경 성공**
 
-![해상도별 썸네일](../week3-docker/results/resolution_comparison.png)
+![해상도별 썸네일](week3-docker/results/resolution_comparison.png)
 
 **성과**:
 - **Docker 이미지**: 5.6GB (모든 의존성 포함)
@@ -476,9 +476,9 @@ wsi_filename = sys.argv[1] if len(sys.argv) > 1 else "CMU-1-Small-Region"
 
 **3개 WSI 분석 완료**
 
-![CMU 클래스 분포](../week4-model-inference/results/visualizations/CMU-1-Small-Region/class_distribution.png)
+![CMU 클래스 분포](week4-model-inference/results/visualizations/CMU-1-Small-Region/class_distribution.png)
 
-![TEST_sample2 예측 오버레이](../week4-model-inference/results/visualizations/TEST_sample2/wsi_prediction_overlay.png)
+![TEST_sample2 예측 오버레이](week4-model-inference/results/visualizations/TEST_sample2/wsi_prediction_overlay.png)
 
 **정량적 결과**:
 
@@ -511,7 +511,7 @@ wsi_filename = sys.argv[1] if len(sys.argv) > 1 else "CMU-1-Small-Region"
 
 **관찰된 현상**
 
-![TEST_sample1 Normalization](../week5-stain-normalization/results/TEST_sample1/normalization_comparison.png)
+![TEST_sample1 Normalization](week5-stain-normalization/results/TEST_sample1/normalization_comparison.png)
 
 - **Reinhard**: 배경이 순백색
 - **Macenko/Vahadane**: 배경에 보라/파란 색조
@@ -564,7 +564,7 @@ wsi_filename = sys.argv[1] if len(sys.argv) > 1 else "CMU-1-Small-Region"
 
 **2개 WSI 성공적 정규화**
 
-![TEST_sample2 정규화 비교](../week5-stain-normalization/results/TEST_sample2/normalization_comparison.png)
+![TEST_sample2 정규화 비교](week5-stain-normalization/results/TEST_sample2/normalization_comparison.png)
 
 **성과**:
 - CMU를 Target으로 설정
@@ -633,13 +633,13 @@ with open(output_file, 'w') as f:
 
 **공간적 조직 맵**
 
-![CMU 공간 맵](../week6-slide-graph/results/CMU-1-Small-Region/spatial_tissue_map.png)
+![CMU 공간 맵](week6-slide-graph/results/CMU-1-Small-Region/spatial_tissue_map.png)
 
-![TEST_sample2 공간 맵](../week6-slide-graph/results/TEST_sample2/spatial_tissue_map.png)
+![TEST_sample2 공간 맵](week6-slide-graph/results/TEST_sample2/spatial_tissue_map.png)
 
 **불확실성 분석**
 
-![CMU 불확실성 맵](../week6-slide-graph/results/CMU-1-Small-Region/uncertainty_map.png)
+![CMU 불확실성 맵](week6-slide-graph/results/CMU-1-Small-Region/uncertainty_map.png)
 
 **CMU 통계**:
 - **평균 불확실성**: 12.9% (대부분 확신)
@@ -648,7 +648,7 @@ with open(output_file, 'w') as f:
 
 **종양 영역 자동 탐지**
 
-![종양 영역](../week6-slide-graph/results/CMU-1-Small-Region/tumor_localization.png)
+![종양 영역](week6-slide-graph/results/CMU-1-Small-Region/tumor_localization.png)
 
 **성과**:
 - 3개 WSI에서 총 2,061개 패치 feature 추출
@@ -875,25 +875,25 @@ EBR-WSI-Analysis/
 
 #### Week 2: 해상도 이해
 
-![해상도 비교](../week2-tiatoolbox-basics/results/week2/thumbnail_resolution_comparison.png)
+![해상도 비교](week2-tiatoolbox-basics/results/week2/thumbnail_resolution_comparison.png)
 
 0.5x (상세) ~ 5.0x (개요)까지 다양한 해상도 활용
 
 #### Week 4: 2,061 패치 분류
 
-![TEST_sample2 분포](../week4-model-inference/results/visualizations/TEST_sample2/class_distribution.png)
+![TEST_sample2 분포](week4-model-inference/results/visualizations/TEST_sample2/class_distribution.png)
 
 대규모 배치 처리 성공
 
 #### Week 5: 색상 표준화
 
-![정규화 비교](../week5-stain-normalization/results/TEST_sample1/normalization_comparison.png)
+![정규화 비교](week5-stain-normalization/results/TEST_sample1/normalization_comparison.png)
 
 3가지 알고리즘으로 일관된 색상 확보
 
 #### Week 6: 공간 분석
 
-![공간 맵](../week6-slide-graph/results/TEST_sample2/spatial_tissue_map.png)
+![공간 맵](week6-slide-graph/results/TEST_sample2/spatial_tissue_map.png)
 
 1,652개 패치의 공간적 분포 시각화
 
