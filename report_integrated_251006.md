@@ -174,7 +174,7 @@ def _calculate_tissue_ratio(self, patch, brightness_threshold=200):
 - **조직 패치**: 39개 (44.3%)
 - **배경 패치**: 49개 (55.7%) 자동 제거
 
-![Week 1 조직 패치 예시](week1-openslide/results/patches/tissue_only/patch_x896_y896.png)
+![Week 1 조직 패치 예시](week1-openslide/results/patches/tissue_only/patch_x1024_y1024.png)
 
 **알고리즘 선택 이유**:
 - 단순하지만 효과적 (밝기 < 200 = 조직)
