@@ -301,19 +301,15 @@ ax.invert_yaxis()
 
 **CMU-1-Small-Region (82 patches)**
 
-![패치 공간 분포 - CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/patch_distribution.png)
-*그림: CMU-1-Small-Region - 패치 공간 분포*
+![CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/patch_distribution.png)
 
 **TEST_sample1 (327 patches)**
 
-![패치 공간 분포 - TEST_sample1](../week6-slide-graph/results/TEST_sample1/patch_distribution.png)
-*그림: TEST_sample1 - 패치 공간 분포*
+![TEST_sample1](../week6-slide-graph/results/TEST_sample1/patch_distribution.png)
 
 **TEST_sample2 (1652 patches)**
 
-![패치 공간 분포 - TEST_sample2](../week6-slide-graph/results/TEST_sample2/patch_distribution.png)
-*그림: TEST_sample2 - 패치 공간 분포*
-
+![TEST_sample2](../week6-slide-graph/results/TEST_sample2/patch_distribution.png)
 
 - X: 0 ~ 2100 픽셀
 - Y: 0 ~ 3000 픽셀
@@ -365,6 +361,19 @@ Class distribution:
 ```
 
 **시각화**: `class_distribution.png`
+
+**CMU-1-Small-Region (82 patches)**
+
+![CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/class_distribution.png)
+
+**TEST_sample1 (327 patches)**
+
+![TEST_sample1](../week6-slide-graph/results/TEST_sample1/class_distribution.png)
+
+**TEST_sample2 (1652 patches)**
+
+![TEST_sample2](../week6-slide-graph/results/TEST_sample2/class_distribution.png)
+
 - 색상별 막대 그래프
 - 각 조직 타입의 개수 표시
 - Week 4 결과와 일치 확인
@@ -383,6 +392,19 @@ def visualize_spatial_map(coordinates, predictions, output_dir, patch_size=224):
 ```
 
 **결과**: `spatial_tissue_map.png`
+
+**CMU-1-Small-Region (82 patches)**
+
+![CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/spatial_tissue_map.png)
+
+**TEST_sample1 (327 patches)**
+
+![TEST_sample1](../week6-slide-graph/results/TEST_sample1/spatial_tissue_map.png)
+
+**TEST_sample2 (1652 patches)**
+
+![TEST_sample2](../week6-slide-graph/results/TEST_sample2/spatial_tissue_map.png)
+
 - 각 패치를 색상별 사각형으로 표시
 - 조직 타입의 공간적 분포 시각화
 - 종양(빨강), 기질(파랑), 배경(회색) 등 한눈에 파악
@@ -429,6 +451,19 @@ Top 5 most uncertain patches:
 - 이런 패치들은 조직 경계 또는 혼합 영역
 
 **시각화**: `uncertainty_map.png`
+
+**CMU-1-Small-Region (82 patches)**
+
+![CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/uncertainty_map.png)
+
+**TEST_sample1 (327 patches)**
+
+![TEST_sample1](../week6-slide-graph/results/TEST_sample1/uncertainty_map.png)
+
+**TEST_sample2 (1652 patches)**
+
+![TEST_sample2](../week6-slide-graph/results/TEST_sample2/uncertainty_map.png)
+
 - 빨강 = 높은 불확실성
 - 노랑 = 낮은 불확실성
 - 불확실한 패치가 어디에 위치하는지 확인
@@ -460,6 +495,19 @@ Tumor region bounds:
 ```
 
 **시각화**: `tumor_localization.png`
+
+**CMU-1-Small-Region (82 patches)**
+
+![CMU-1-Small-Region](../week6-slide-graph/results/CMU-1-Small-Region/tumor_localization.png)
+
+**TEST_sample1 (327 patches)**
+
+![TEST_sample1](../week6-slide-graph/results/TEST_sample1/tumor_localization.png)
+
+**TEST_sample2 (1652 patches)**
+
+![TEST_sample2](../week6-slide-graph/results/TEST_sample2/tumor_localization.png)
+
 - 종양 패치만 빨간색 강조
 - 종양 영역의 범위 확인
 - 자동 ROI (Region of Interest) 탐지
