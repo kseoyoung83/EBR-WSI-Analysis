@@ -1,7 +1,7 @@
 <invoke name="artifacts">
 <parameter name="command">create</parameter>
-<parameter name="type">text/markdown</parameter>
-<parameter name="id">comprehensive-ebr-report</parameter>
+<parameter name="type"> text/markdown </parameter>
+<parameter name="id"> comprehensive-ebr-report </parameter>
 <parameter name="title">WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트</parameter>
 <parameter name="content"># WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트</parameter>
 
