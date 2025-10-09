@@ -1,4 +1,3 @@
-6주차 레포트를 작성하겠습니다.
 
 <artifact identifier="week6-report" type="text/markdown" title="6주차 Feature Extraction 실습 레포트">
 # Evolution of Biomedical Research
