@@ -1,5 +1,5 @@
 <invoke name="artifacts">
-<parameter name="title">WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트</parameter>
+
 <parameter name="content"># WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트</parameter>
 
 **Evolution of Biomedical Research - 실습 프로젝트**
