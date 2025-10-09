@@ -3,7 +3,7 @@
 <parameter name="type">text/markdown</parameter>
 <parameter name="id">comprehensive-ebr-report</parameter>
 <parameter name="title">WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트</parameter>
-<parameter name="content"># WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트
+<parameter name="content"># WSI 분석 파이프라인 구축: 6주 학습 여정 종합 레포트</parameter>
 
 **Evolution of Biomedical Research - 실습 프로젝트**
 
@@ -1289,31 +1289,26 @@ Week 6: "공간을 이해하다"
 
 #### 다음 단계로
 
-**즉시 (1주 내)**:
-- Slide Graph 구축 시작
-- NetworkX로 k-NN graph 생성
-- Graph 시각화
-
 **단기 (1개월 내)**:
 - Graph Neural Network 학습
 - 더 많은 WSI 분석
-- 정량적 성능 평가
+- 정량적 성능 평가 (다른 모델로도 패치 분석 시도)
 
-**장기 (1년 내)**:
-- 실제 병원 데이터 협업
-- 논문 작성
-- 학회 발표
+**장기 (1학기 내)**:
+- 패치 분석 심화
+- tiatoolbox 내 예제 추가 적용
+- 전 과정 통합한 코드 작성
 
 #### 마치며
 
-6주간의 여정은 끝이 아닌 **시작**입니다.
+- agent coding 방식의 실습은 처음이었습니다만, 이의 유용성을 실감할 수 있는 시간이었습니다.
+- 그러나 이에 무조건적으로 의지하지 않고, 모르는 부분이 있다면 언제든지 LLM과 다른 자료를 통해 이해하며 넘어가는 태도를 익히고자 하였습니다.
+- 9월 초반에 실습하던 파일이 재현되지 않아 다시 시작하는 등 번거로움이 있었지만, 그 과정으로부터 백업, docker 설정, 실행 환경의 통일성 유지의 중요성을 몸소 익힐 수 있었습니다.
+- 24-2학기에 single cell RNA-seq를 R 프로그래밍으로 시도하다 별 유용한 결과를 얻지 못하고 이해하지 못한 채 끝난 경험이 있습니다.
+  개인적으로는 이번 학기에 유전자 수준까지 배워나갈 수 있기를 바랍니다만, 현재 병리 이미지를 관찰하는 데에서도 기초 지식이 부족해 탐구할 부분이 많이 남은 터라 욕심ㅇ을 부리지는 않겠습니다. 
 
-디지털 병리학, AI, 그리고 의학의 교차점에서:
-- 기술을 두려워하지 않고
-- 한계를 명확히 인식하며
-- 환자에게 도움이 되는 방향으로
 
-앞으로도 계속 학습하고 성장하겠습니다.
+
 
 ---
 
@@ -1340,7 +1335,7 @@ Week 6: "공간을 이해하다"
 
 ---
 
-**작성일**: 2025년 1월
+**작성일**: 2025년 10월
 
 **작성자**: 김서영 (2024191115)
 
@@ -1349,7 +1344,5 @@ Week 6: "공간을 이해하다"
 **과목**: Evolution of Biomedical Research
 
 ---
-
-*"The best way to predict the future is to create it."*
-*- Peter Drucker*</parameter>
+</parameter>
 </invoke>
