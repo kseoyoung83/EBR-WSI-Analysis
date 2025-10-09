@@ -723,19 +723,6 @@ with open(output_file, 'w') as f:
 - Active Learning으로 모델 개선</parameter>
 </invoke>
 
-통합 학습 성과 섹션을 추가하겠습니다.
-
-<invoke name="artifacts">
-<parameter name="command">update</parameter>
-<parameter name="id">comprehensive-ebr-report</parameter>
-<parameter name="old_str">**Entropy 활용 가능성**:
-- 불확실성 높은 패치 → 병리학자 재검토 필요
-- 조직 경계 자동 감지
-- Active Learning으로 모델 개선</parameter>
-<parameter name="new_str">**Entropy 활용 가능성**:
-- 불확실성 높은 패치 → 병리학자 재검토 필요
-- 조직 경계 자동 감지
-- Active Learning으로 모델 개선
 
 ---
 
