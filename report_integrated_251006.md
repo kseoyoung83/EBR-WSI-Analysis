@@ -299,10 +299,7 @@ Week 3을 추가하겠습니다.
 - `units="power"`: 0.5x (가장 상세) ~ 5.0x (전체 개요)
 - `units="mpp"`: Microns Per Pixel (물리적 단위)
 - 목적에 따라 적절한 해상도 선택</parameter>
-<parameter name="new_str">**해상도 학습**:
-- `units="power"`: 0.5x (가장 상세) ~ 5.0x (전체 개요)
-- `units="mpp"`: Microns Per Pixel (물리적 단위)
-- 목적에 따라 적절한 해상도 선택
+
 
 ---
 
