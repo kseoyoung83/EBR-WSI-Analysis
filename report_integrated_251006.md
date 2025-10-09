@@ -52,8 +52,8 @@
 | 파일명 | 크기 | 패치 수 | 출처 |
 |--------|------|---------|------|
 | CMU-1-Small-Region.svs | 1.8MB | 82 | TIAToolbox 샘플 |
-| TEST_sample1.svs | 미확인 | 327 | TIAToolbox 샘플 |
-| TEST_sample2.svs | 미확인 | 1,652 | TIAToolbox 샘플 |
+| TEST_sample1.svs | 18MB | 327 | TIAToolbox 샘플 |
+| TEST_sample2.svs | 74.1MB | 1,652 | TIAToolbox 샘플 |
 
 **총 2,061개 패치** 분석
 
