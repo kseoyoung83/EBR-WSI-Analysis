@@ -1,4 +1,3 @@
-전체 레포트를 하나의 artifact로 작성하겠습니다.
 
 <artifact identifier="week5-report" type="text/markdown" title="5주차 Stain Normalization 실습 레포트">
 # Evolution of Biomedical Research
