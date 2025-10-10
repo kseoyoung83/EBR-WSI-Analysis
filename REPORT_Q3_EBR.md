@@ -187,10 +187,7 @@ def _calculate_tissue_ratio(self, patch, brightness_threshold=200):
 - 단순하지만 효과적 (밝기 < 200 = 조직)
 - H&E 염색의 물리적 특성 활용
 - Week 2의 Morphological Masking으로 이어지는 기초</parameter>
-<parameter name="new_str">**알고리즘 선택 이유**:
-- 단순하지만 효과적 (밝기 < 200 = 조직)
-- H&E 염색의 물리적 특성 활용
-- Week 2의 Morphological Masking으로 이어지는 기초
+
 
 ---
 
