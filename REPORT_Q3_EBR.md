@@ -6,6 +6,9 @@
 
 의과대학 의예과 2024191115 김서영
 
+(notice)
+이미지와 연계된 보고서의 경우, 깃허브 REPORT_Q3_EBR에서 동일 내용을 확인하실 수 있습니다.
+
 ---
 
 ## 목차
@@ -97,11 +100,7 @@ Week 6: 공간 분석 (Feature Extraction)
 </invoke>
 
 
-<invoke name="artifacts">
-<parameter name="command">update</parameter>
-<parameter name="id">comprehensive-ebr-report</parameter>
-<parameter name="old_str">이제 각 주차별로 상세한 내용을 작성하겠습니다. 다음 업데이트에서 Week 1부터 차근차근 추가하겠습니다.</parameter>
-<parameter name="new_str">### Week 1: 로컬 환경 구축과 첫 번째 도전
+### Week 1: 로컬 환경 구축과 첫 번째 도전
 
 #### 학습 목표
 - macOS 환경에서 OpenSlide 설치 및 연동
