@@ -1,0 +1,89 @@
+Community Detection Statistics
+============================================================
+
+Total nodes: 327
+Total communities: 10
+Average purity: 0.478
+
+Community composition:
+------------------------------------------------------------
+
+Community 0 (20 nodes):
+  DEB    (2):    7 nodes ( 35.0%)
+  TUM    (3):    2 nodes ( 10.0%)
+  STR    (7):    9 nodes ( 45.0%)
+  LYM    (8):    2 nodes ( 10.0%)
+  Purity: 0.450
+
+Community 1 (43 nodes):
+  BACK   (0):    4 nodes (  9.3%)
+  NORM   (1):    7 nodes ( 16.3%)
+  DEB    (2):    4 nodes (  9.3%)
+  TUM    (3):    3 nodes (  7.0%)
+  MUS    (6):   17 nodes ( 39.5%)
+  STR    (7):    8 nodes ( 18.6%)
+  Purity: 0.395
+
+Community 2 (31 nodes):
+  BACK   (0):    1 nodes (  3.2%)
+  NORM   (1):   14 nodes ( 45.2%)
+  DEB    (2):    1 nodes (  3.2%)
+  TUM    (3):    2 nodes (  6.5%)
+  ADI    (4):    2 nodes (  6.5%)
+  MUS    (6):   10 nodes ( 32.3%)
+  STR    (7):    1 nodes (  3.2%)
+  Purity: 0.452
+
+Community 3 (23 nodes):
+  BACK   (0):    8 nodes ( 34.8%)
+  NORM   (1):   15 nodes ( 65.2%)
+  Purity: 0.652
+
+Community 4 (29 nodes):
+  DEB    (2):    2 nodes (  6.9%)
+  TUM    (3):    1 nodes (  3.4%)
+  ADI    (4):    1 nodes (  3.4%)
+  MUS    (6):    6 nodes ( 20.7%)
+  STR    (7):   19 nodes ( 65.5%)
+  Purity: 0.655
+
+Community 5 (43 nodes):
+  NORM   (1):   14 nodes ( 32.6%)
+  DEB    (2):    1 nodes (  2.3%)
+  TUM    (3):    2 nodes (  4.7%)
+  ADI    (4):    1 nodes (  2.3%)
+  MUS    (6):    9 nodes ( 20.9%)
+  STR    (7):    8 nodes ( 18.6%)
+  LYM    (8):    8 nodes ( 18.6%)
+  Purity: 0.326
+
+Community 6 (23 nodes):
+  BACK   (0):    5 nodes ( 21.7%)
+  NORM   (1):    1 nodes (  4.3%)
+  DEB    (2):    2 nodes (  8.7%)
+  MUS    (6):   11 nodes ( 47.8%)
+  STR    (7):    4 nodes ( 17.4%)
+  Purity: 0.478
+
+Community 7 (21 nodes):
+  BACK   (0):    7 nodes ( 33.3%)
+  DEB    (2):    6 nodes ( 28.6%)
+  MUS    (6):    6 nodes ( 28.6%)
+  STR    (7):    2 nodes (  9.5%)
+  Purity: 0.333
+
+Community 8 (36 nodes):
+  BACK   (0):   12 nodes ( 33.3%)
+  NORM   (1):   20 nodes ( 55.6%)
+  TUM    (3):    2 nodes (  5.6%)
+  LYM    (8):    2 nodes (  5.6%)
+  Purity: 0.556
+
+Community 9 (58 nodes):
+  BACK   (0):    2 nodes (  3.4%)
+  DEB    (2):    9 nodes ( 15.5%)
+  MUC    (5):    1 nodes (  1.7%)
+  MUS    (6):   28 nodes ( 48.3%)
+  STR    (7):   17 nodes ( 29.3%)
+  LYM    (8):    1 nodes (  1.7%)
+  Purity: 0.483

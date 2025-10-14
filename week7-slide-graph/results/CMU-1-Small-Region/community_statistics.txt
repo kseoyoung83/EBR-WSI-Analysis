@@ -1,0 +1,50 @@
+Community Detection Statistics
+============================================================
+
+Total nodes: 82
+Total communities: 6
+Average purity: 0.480
+
+Community composition:
+------------------------------------------------------------
+
+Community 0 (12 nodes):
+  BACK   (0):    8 nodes ( 66.7%)
+  STR    (7):    4 nodes ( 33.3%)
+  Purity: 0.667
+
+Community 1 (16 nodes):
+  BACK   (0):    9 nodes ( 56.2%)
+  TUM    (3):    3 nodes ( 18.8%)
+  ADI    (4):    1 nodes (  6.2%)
+  MUS    (6):    1 nodes (  6.2%)
+  STR    (7):    2 nodes ( 12.5%)
+  Purity: 0.562
+
+Community 2 (15 nodes):
+  BACK   (0):    7 nodes ( 46.7%)
+  TUM    (3):    4 nodes ( 26.7%)
+  MUS    (6):    1 nodes (  6.7%)
+  STR    (7):    3 nodes ( 20.0%)
+  Purity: 0.467
+
+Community 3 (13 nodes):
+  BACK   (0):    5 nodes ( 38.5%)
+  TUM    (3):    2 nodes ( 15.4%)
+  MUS    (6):    3 nodes ( 23.1%)
+  STR    (7):    3 nodes ( 23.1%)
+  Purity: 0.385
+
+Community 4 (17 nodes):
+  BACK   (0):    1 nodes (  5.9%)
+  TUM    (3):    5 nodes ( 29.4%)
+  MUS    (6):    5 nodes ( 29.4%)
+  STR    (7):    6 nodes ( 35.3%)
+  Purity: 0.353
+
+Community 5 (9 nodes):
+  BACK   (0):    4 nodes ( 44.4%)
+  TUM    (3):    1 nodes ( 11.1%)
+  MUS    (6):    1 nodes ( 11.1%)
+  STR    (7):    3 nodes ( 33.3%)
+  Purity: 0.444

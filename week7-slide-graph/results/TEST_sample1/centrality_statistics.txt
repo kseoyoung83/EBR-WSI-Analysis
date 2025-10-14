@@ -1,0 +1,47 @@
+Centrality Analysis Statistics
+============================================================
+
+Degree Centrality:
+  Mean: 0.0257
+  Max:  0.0368
+  Min:  0.0245
+
+Top 10 nodes by degree centrality:
+  Node  289 (STR   ): 0.0368 at (5824.0, 4816.0)
+  Node   26 (NORM  ): 0.0337 at (4144.0, 448.0)
+  Node   33 (DEB   ): 0.0337 at (784.0, 784.0)
+  Node   45 (NORM  ): 0.0337 at (4816.0, 784.0)
+  Node   64 (NORM  ): 0.0337 at (5152.0, 1120.0)
+  Node   85 (NORM  ): 0.0337 at (5824.0, 1456.0)
+  Node  253 (NORM  ): 0.0337 at (784.0, 4480.0)
+  Node  275 (LYM   ): 0.0337 at (1120.0, 4816.0)
+  Node  290 (DEB   ): 0.0337 at (6160.0, 4816.0)
+  Node   16 (DEB   ): 0.0307 at (784.0, 448.0)
+
+Betweenness Centrality:
+  Mean: 0.0205
+  Max:  0.0472
+  Min:  0.0009
+
+Top 10 nodes by betweenness centrality:
+  Node  157 (STR   ): 0.0472 at (3472.0, 2800.0)
+  Node  156 (MUS   ): 0.0470 at (3136.0, 2800.0)
+  Node  137 (STR   ): 0.0463 at (3136.0, 2464.0)
+  Node  155 (MUS   ): 0.0462 at (2800.0, 2800.0)
+  Node   26 (NORM  ): 0.0461 at (4144.0, 448.0)
+  Node  177 (MUS   ): 0.0456 at (3472.0, 3136.0)
+  Node  136 (STR   ): 0.0454 at (2800.0, 2464.0)
+  Node  176 (MUS   ): 0.0453 at (3136.0, 3136.0)
+  Node  158 (DEB   ): 0.0453 at (3808.0, 2800.0)
+  Node  138 (MUS   ): 0.0449 at (3472.0, 2464.0)
+
+Boundary vs Internal nodes:
+  Boundary nodes: 320 (97.9%)
+  Internal nodes: 7 (2.1%)
+
+  Degree centrality:
+    Boundary: 0.0257
+    Internal: 0.0245
+  Betweenness centrality:
+    Boundary: 0.0204
+    Internal: 0.0250

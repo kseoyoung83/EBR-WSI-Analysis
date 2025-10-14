@@ -1,0 +1,17 @@
+Graph Statistics: TEST_sample2
+==================================================
+
+Nodes: 1652
+Edges: 6927
+Average degree: 8.39
+
+Class distribution:
+  BACK   (0):  128 nodes
+  NORM   (1):  496 nodes
+  DEB    (2):   44 nodes
+  TUM    (3):  118 nodes
+  ADI    (4):   68 nodes
+  MUC    (5):   19 nodes
+  MUS    (6):  640 nodes
+  STR    (7):  105 nodes
+  LYM    (8):   34 nodes

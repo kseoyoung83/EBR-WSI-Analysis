@@ -1,0 +1,17 @@
+Boundary Analysis Statistics
+==================================================
+
+Total edges: 378
+  Boundary edges: 238 (63.0%)
+  Internal edges: 140 (37.0%)
+
+Boundary types (all):
+  BACK   - STR   :   71 edges (29.8%)
+  TUM    - STR   :   49 edges (20.6%)
+  BACK   - MUS   :   31 edges (13.0%)
+  MUS    - STR   :   31 edges (13.0%)
+  BACK   - TUM   :   26 edges (10.9%)
+  TUM    - MUS   :   21 edges (8.8%)
+  BACK   - ADI   :    5 edges (2.1%)
+  ADI    - STR   :    3 edges (1.3%)
+  TUM    - ADI   :    1 edges (0.4%)

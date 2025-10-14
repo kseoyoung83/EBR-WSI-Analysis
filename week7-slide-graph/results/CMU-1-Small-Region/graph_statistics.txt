@@ -1,0 +1,13 @@
+Graph Statistics: CMU-1-Small-Region
+==================================================
+
+Nodes: 82
+Edges: 378
+Average degree: 9.22
+
+Class distribution:
+  BACK   (0):   34 nodes
+  TUM    (3):   15 nodes
+  ADI    (4):    1 nodes
+  MUS    (6):   11 nodes
+  STR    (7):   21 nodes

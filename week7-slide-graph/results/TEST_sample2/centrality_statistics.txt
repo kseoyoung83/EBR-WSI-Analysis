@@ -1,0 +1,47 @@
+Centrality Analysis Statistics
+============================================================
+
+Degree Centrality:
+  Mean: 0.0051
+  Max:  0.0085
+  Min:  0.0048
+
+Top 10 nodes by degree centrality:
+  Node  130 (BACK  ): 0.0085 at (4144.0, 3808.0)
+  Node 1267 (BACK  ): 0.0085 at (14896.0, 13888.0)
+  Node 1305 (BACK  ): 0.0085 at (14896.0, 14224.0)
+  Node  709 (BACK  ): 0.0079 at (2128.0, 9520.0)
+  Node  993 (MUS   ): 0.0079 at (3136.0, 11872.0)
+  Node 1413 (BACK  ): 0.0079 at (13552.0, 15232.0)
+  Node 1418 (MUS   ): 0.0079 at (4144.0, 15568.0)
+  Node 1490 (BACK  ): 0.0079 at (13216.0, 16240.0)
+  Node    7 (BACK  ): 0.0073 at (5152.0, 1456.0)
+  Node   11 (BACK  ): 0.0073 at (5152.0, 1792.0)
+
+Betweenness Centrality:
+  Mean: 0.0093
+  Max:  0.1499
+  Min:  0.0000
+
+Top 10 nodes by betweenness centrality:
+  Node  158 (BACK  ): 0.1499 at (112.0, 4144.0)
+  Node  130 (BACK  ): 0.1062 at (4144.0, 3808.0)
+  Node   24 (BACK  ): 0.1051 at (7504.0, 2128.0)
+  Node  792 (MUS   ): 0.1026 at (3136.0, 10192.0)
+  Node 1513 (BACK  ): 0.0991 at (14896.0, 16576.0)
+  Node  870 (MUS   ): 0.0976 at (3136.0, 10864.0)
+  Node  951 (MUS   ): 0.0889 at (3136.0, 11536.0)
+  Node   25 (MUS   ): 0.0881 at (8176.0, 2128.0)
+  Node   27 (MUC   ): 0.0879 at (8848.0, 2128.0)
+  Node 1596 (BACK  ): 0.0849 at (12880.0, 17920.0)
+
+Boundary vs Internal nodes:
+  Boundary nodes: 1433 (86.7%)
+  Internal nodes: 219 (13.3%)
+
+  Degree centrality:
+    Boundary: 0.0051
+    Internal: 0.0049
+  Betweenness centrality:
+    Boundary: 0.0092
+    Internal: 0.0099
