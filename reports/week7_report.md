@@ -267,7 +267,7 @@ Boundary edges: 238 (63.0%)
 
 **1) Week 6 vs Week 7 비교**
 
-![Week 6 vs Week 7 Comparison](results/CMU-1-Small-Region/week6_vs_week7_comparison.png)
+![Week 6 vs Week 7 Comparison](../week7-slide-graph/results/CMU-1-Small-Region/week6_vs_week7_comparison.png)
 
 왼쪽(Week 6): 패치가 점으로만 표시
 오른쪽(Week 7): 패치 간 연결선(엣지) 추가
@@ -275,7 +275,7 @@ Boundary edges: 238 (63.0%)
 
 **2) 그래프 구조**
 
-![Graph Structure](results/CMU-1-Small-Region/graph_structure.png)
+![Graph Structure](../week7-slide-graph/results/CMU-1-Small-Region/graph_structure.png)
 
 - 조직 타입별 색상 구분
 - 회색 선으로 연결 관계 표시
@@ -283,7 +283,7 @@ Boundary edges: 238 (63.0%)
 
 **3) 연결성 맵**
 
-![Connectivity Map](results/CMU-1-Small-Region/connectivity_map.png)
+![Connectivity Map](../week7-slide-graph/results/CMU-1-Small-Region/connectivity_map.png)
 
 - 노드 크기 = degree (연결 개수)
 - 색상 = degree centrality
@@ -468,7 +468,7 @@ CMU: 63% → 나쁜 예후 가능성
 
 **1) 경계 엣지 강조**
 
-![Boundary Edges](results/CMU-1-Small-Region/boundary_edges.png)
+![Boundary Edges](../week7-slide-graph/results/CMU-1-Small-Region/boundary_edges.png)
 
 - 빨간색 선 = 경계 엣지 (서로 다른 조직 간)
 - 회색 선 = 내부 엣지 (같은 조직 간)
@@ -476,7 +476,7 @@ CMU: 63% → 나쁜 예후 가능성
 
 **2) 경계 노드 강조**
 
-![Boundary Nodes](results/CMU-1-Small-Region/boundary_nodes.png)
+![Boundary Nodes](../week7-slide-graph/results/CMU-1-Small-Region/boundary_nodes.png)
 
 - 빨간 테두리 = 경계 노드 (다른 조직과 인접)
 - 회색 테두리 = 내부 노드 (같은 조직으로만 둘러싸임)
@@ -584,7 +584,7 @@ Purity 낮음 (0.48)
 
 **1) 커뮤니티 분포**
 
-![Communities](results/CMU-1-Small-Region/communities.png)
+![Communities](../week7-slide-graph/results/CMU-1-Small-Region/communities.png)
 
 - 각 색상 = 하나의 커뮤니티
 - 같은 색 = 강하게 연결된 노드들
@@ -592,7 +592,7 @@ Purity 낮음 (0.48)
 
 **2) 커뮤니티 vs 실제 조직**
 
-![Communities vs Tissue](results/CMU-1-Small-Region/communities_vs_tissue.png)
+![Communities vs Tissue](../week7-slide-graph/results/CMU-1-Small-Region/communities_vs_tissue.png)
 
 - 왼쪽: 실제 조직 타입 (Ground Truth)
 - 오른쪽: 알고리즘이 찾은 커뮤니티
@@ -733,7 +733,7 @@ CMU (침윤성 암):
 
 **1) Degree Centrality**
 
-![Degree Centrality](results/CMU-1-Small-Region/centrality_degree.png)
+![Degree Centrality](../week7-slide-graph/results/CMU-1-Small-Region/centrality_degree.png)
 
 - 노드 크기 = degree (연결 개수)
 - 색상 = degree centrality (빨강 = 높음)
@@ -741,7 +741,7 @@ CMU (침윤성 암):
 
 **2) Betweenness Centrality**
 
-![Betweenness Centrality](results/CMU-1-Small-Region/centrality_betweenness.png)
+![Betweenness Centrality](../week7-slide-graph/results/CMU-1-Small-Region/centrality_betweenness.png)
 
 - 노드 크기 = betweenness (경로 중심성)
 - 색상 = betweenness centrality
@@ -750,7 +750,7 @@ CMU (침윤성 암):
 
 **3) 통합 시각화**
 
-![Centrality Combined](results/CMU-1-Small-Region/centrality_combined.png)
+![Centrality Combined](../week7-slide-graph/results/CMU-1-Small-Region/centrality_combined.png)
 
 - 왼쪽: Degree centrality
 - 오른쪽: Betweenness centrality
